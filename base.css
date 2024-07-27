@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #e7cd0a;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 8%;
+}
+.topnav-right {
+  float: right;
+}
+.topnav-right a {
+  float: left;
+  color: #100f0f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.intro-text {
+  max-width: 50%;
+  color: aliceblue;
+}
+
+.intro-text h1 {
+  font-size: 2.5rem;
+}
+
+.intro-text p {
+  margin: 1rem 0;
+}
+
+.intro-text button {
+  background: #e7cd0a;
+  color: black;
+  border: none;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.intro-image img {
+  max-width: 100%;
+  padding-top: 80px;
+  width: 500px;
+}
+h2 {
+  color: #e7cd0a;
+  text-align: center;
+}
+input[type="text"],
+input[type="email"] {
+  border-color: #e7cd0a;
+  padding-left: 5px;
+  margin: 8px 0;
+  border-radius: 20px;
+  background-color: black;
+  height: 30px;
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+    border: 2px solid #e7cd0a;
+    color: #e7cd0a;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table, th {
+    border-bottom: 1px solid #e7cd0a;
+}
+
+table, th, td{
+    border-right: 1px solid #e7cd0a;
+    padding: 10px;
+}
+
+tr {
+    text-align: center;
+}
+
+tfoot {
+    background-color: #e7cd0a;
+    color: #100f0f;
+}
+
+tfoot > td {
+    border-right:1px solid #100f0f;
+}
